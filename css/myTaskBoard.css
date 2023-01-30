@@ -1,0 +1,115 @@
+body{
+	background-image: url(../images/brownBackground.jpg);
+	height: 100%;
+}
+h1{
+ font-family: 'Permanent Marker', cursive;
+ font-size: 7rem;
+ text-align: center;
+}
+label{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+
+}
+.container{
+	background-image: url(../images/form.jpg);
+	background-size: contain;
+	width: 45%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#info{
+	padding: 28px;
+	
+}
+#date{   
+	margin-top: 22px;
+
+}
+#time{
+	margin-top: 50px;
+}
+#taskInfo{
+	width: 250px;
+}
+.btn{
+	margin-bottom: 40px;
+	height: 30px;
+}
+#myNotes{
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 50px;
+	row-gap: 15px;  
+	align-items: baseline;
+}
+#taskInfo,#taskTime, #taskDate{
+	/* background-color: transparent; */
+	border: none;
+	outline: none;
+	cursor: default;
+}
+
+ .note{
+	background-image: url(../images/note.png);
+	width: 200px;
+	height: 230px;
+	word-wrap: break-word;
+	position: relative;
+	font-family:'Fuzzy Bubbles', cursive; 
+	margin: 5px 5px;
+	padding: 30px 20px;
+	 
+ }
+ .info{
+	max-width: 150px;
+	max-height: 120px;
+	overflow-x: auto;
+	word-wrap: break-word;
+	margin: auto;
+	margin-right: 12px;
+}
+
+.dateNtime{
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 5px;
+	margin-top: 10px;
+}
+.fadeIn{
+	animation: fadeInOpacity 3s;
+}
+ @keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+ .deleteBtn {
+	display: none;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	background-color: transparent;
+	border: none;
+}
+.note:hover .deleteBtn {
+	display: block;
+	cursor: pointer;
+}
+
+
+

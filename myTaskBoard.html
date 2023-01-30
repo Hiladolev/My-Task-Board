@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Task Board</title>
+    <!-- Bootstrap CSS glyphs -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="css/myTaskBoard.css" />
+    <!-- JavaScript -->
+    <script defer src="js/myTaskBoard.js"></script>
+    <!-- google fonts(title) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts(notes) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Title -->
+    <h1>My Task Board</h1>
+    <div class="container">
+      <!-- Form -->
+      <form action="javascript:myAction()" id="form">
+        <div class="taskInput" id="info">
+          <label for="taskInfo">Enter a task:</label>
+          <input type="text" id="taskInfo" required />
+        </div>
+        <div class="taskInput" id="date">
+          <label for="taskDate">Target Date:</label>
+          <input type="date" id="taskDate" required />
+        </div>
+        <div class="taskInput" id="time">
+          <label for="taskTime">Destination Time:</label>
+          <input type="time" id="taskTime" required />
+        </div>
+        <br />
+        <input type="submit" value="Save" class="btn btn-success" />
+        <input type="reset" value="Reset" class="btn btn-info" />
+      </form>
+    </div>
+    <div id="myNotes"></div>
+  </body>
+</html>
