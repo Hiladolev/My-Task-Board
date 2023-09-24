@@ -17,3 +17,9 @@ Once you've completed a task, TaskMaster makes it effortless to remove it from y
 <p>
     <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
 </p>
+
+## Getting Started
+
+## Installation
+
+To start using TaskMaster, simply download or clone this repository and open the index.html file in your preferred web browser.
