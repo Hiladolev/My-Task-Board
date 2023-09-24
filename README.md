@@ -11,3 +11,9 @@ Easily add tasks to your board with just a few clicks. Our user-friendly interfa
 Stay on top of your tasks by specifying exact finish dates and times. TaskMaster ensures you never miss a deadline.</li>
 <li>Swift Task Removal:
 Once you've completed a task, TaskMaster makes it effortless to remove it from your list, allowing you to focus on your remaining to-dos.</li>
+
+## Technologies
+
+<p>
+    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
+</p>
