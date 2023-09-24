@@ -1,3 +1,3 @@
-# :memo::pencil: Vacations website
+# :memo: Vacations website
 
 It's my first project
